@@ -111,16 +111,75 @@ The project serves as a practical learning platform for implementing core game d
 * Added Camera animation 
 * Visual polish and gameplay feedback improvements
 * C# scripting for multiple Game Objects. (Collision Detection, Level generator)
+  
+## Day 6 – Main Menu & Game Flow
+
+### Features Added
+
+* Designed a fully functional **Main Menu** scene.
+* Created interactive **Start Game** UI button.
+* Implemented scene transitions using Unity's **SceneManager**.
+* Added smooth **Fade In/Fade Out** transition effects.
+* Integrated **Background Music (BGM)** for the main menu.
+* Added menu sound effects for a more immersive experience.
+* Improved overall game presentation and first-time player experience.
+
+### Technical Skills Practiced
+
+* Unity UI System
+* Scene Management
+* C# Scripting
+* Audio Source & Audio Mixer
+* Canvas Groups & UI Animation
+* Scene Transition Effects
 
 ---
 
+# Day 7 – Level Selection & Loading Screen
+
+### Features Added
+
+* Developed a dedicated **Level Selection** scene.
+* Added animated UI and background music for the level selector.
+* Implemented buttons to load different gameplay scenes.
+* Built an immersive **Loading Screen** scene.
+* Added gameplay instructions and controls on the loading screen.
+* Created smooth transitions from Main Menu → Level Selection → Loading Screen → Gameplay.
+* Organized multiple scenes using Unity's **SceneManager** namespace for a more scalable project structure.
+
+### Planned Gameplay Expansion
+
+Future levels are planned to include:
+
+* 🛠️ Gadget Runs
+* 🧩 Puzzle Runs
+* ⏱️ Time Challenge Runs
+* ⚔️ Combat Runs
+
+### Technical Skills Practiced
+
+* Unity SceneManager
+* Multi-Scene Architecture
+* UI Design & Animation
+* Loading Screen Workflow
+* C# Scene Navigation
+* Audio Integration
+* Player Experience & Game Flow Design
+
+### Next Objectives
+
+* Design polished UI icons.
+* Implement a distance-based score system.
+* Expand gameplay mechanics and level variety.
+* Continue improving the overall game experience.
+
+---
+
+
 ## 🔄 Planned Features
 
-
 * High Score Tracking
-* UI/HUD System (Main Menu)
 * Increasing Difficulty
-* Levels modification
 * Mobile Optimization
 * Save and Progress
 * Textures
@@ -143,7 +202,7 @@ This project is part of my long-term goal of becoming a professional game develo
 
 ## 👨‍💻 Author
 
-Akasha Nadeem
+Muhammad Akasha Nadeem
 
 Electrical Engineering (Computer Engineering Specialization)
 
