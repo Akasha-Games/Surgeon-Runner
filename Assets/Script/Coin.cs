@@ -7,7 +7,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
 
-    [SerializeField] int rotatespeed = 1;
+    [SerializeField] float rotatespeed = 1;
 
 
     

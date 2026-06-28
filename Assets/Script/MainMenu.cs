@@ -49,7 +49,7 @@ public class MainMenu : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
     IEnumerator AnimCam()
     {
