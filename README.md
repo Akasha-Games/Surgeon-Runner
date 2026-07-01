@@ -52,6 +52,7 @@ The project serves as a practical learning platform for implementing core game d
 * Audio Source Integration
 * Animation Systems
 * Trigger and Collision Systems
+* UI Development
 
 ### Programming (C#)
 
