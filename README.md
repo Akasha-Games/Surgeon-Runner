@@ -179,6 +179,7 @@ Future levels are planned to include:
 ## 🔄 Planned Features
 
 * High Score Tracking
+* Level Designing 
 * Increasing Difficulty
 * Mobile Optimization
 * Save and Progress
