@@ -1,4 +1,4 @@
-
+i8
 # 🎮 Surgeon Runner
 
 A Unity-based endless runner game developed in C# as part of my game development journey. This project focuses on learning gameplay programming, game system architecture, quality assurance, object-oriented programming, Unity workflows, and player experience design.
@@ -53,6 +53,7 @@ The project serves as a practical learning platform for implementing core game d
 * Animation Systems
 * Trigger and Collision Systems
 * UI Development
+* Game Optimisation 
 
 ### Programming (C#)
 
