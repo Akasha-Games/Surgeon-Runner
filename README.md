@@ -186,6 +186,7 @@ Future levels are planned to include:
 * Mobile Optimization
 * Save and Progress
 * Textures
+* Publishing on Andriod
 
 ---
 
