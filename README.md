@@ -114,40 +114,58 @@ The project serves as a practical learning platform for implementing core game d
 * Visual polish and gameplay feedback improvements
 * C# scripting for multiple Game Objects. (Collision Detection, Level generator)
   
-## Day 6 – Main Menu & Game Flow
+## Day 5 – Main Menu Foundation
 
 ### Features Added
 
-* Designed a fully functional **Main Menu** scene.
-* Created interactive **Start Game** UI button.
-* Implemented scene transitions using Unity's **SceneManager**.
-* Added smooth **Fade In/Fade Out** transition effects.
-* Integrated **Background Music (BGM)** for the main menu.
-* Added menu sound effects for a more immersive experience.
-* Improved overall game presentation and first-time player experience.
+* Designed the first version of the Main Menu.
+* Added a Start Game button.
+* Connected the menu to gameplay using Unity SceneManager.
+* Implemented fade-in and fade-out scene transitions.
+* Added menu sound effects.
+* Created the foundation for a smoother game flow.
 
 ### Technical Skills Practiced
 
 * Unity UI System
 * Scene Management
-* C# Scripting
-* Audio Source & Audio Mixer
-* Canvas Groups & UI Animation
-* Scene Transition Effects
+* C# UI Scripting
+* Audio Integration
+* Scene Transitions
 
 ---
 
-# Day 7 – Level Selection & Loading Screen
+## Day 6 – Main Menu Polish & Immersion
+
+### Features Added
+
+* Redesigned the Main Menu with a stronger hospital/surgeon theme.
+* Improved UI readability and layout.
+* Added immersive background music.
+* Enhanced menu presentation and player experience.
+* Improved transitions and overall visual polish.
+
+### Technical Skills Practiced
+
+* UI Design
+* User Experience (UX)
+* Audio Design
+* Scene Presentation
+* Unity UI
+
+---
+
+## Day 7 – Level Selection & Loading Screen
 
 ### Features Added
 
 * Developed a dedicated **Level Selection** scene.
-* Added animated UI and background music for the level selector.
-* Implemented buttons to load different gameplay scenes.
-* Built an immersive **Loading Screen** scene.
-* Added gameplay instructions and controls on the loading screen.
-* Created smooth transitions from Main Menu → Level Selection → Loading Screen → Gameplay.
-* Organized multiple scenes using Unity's **SceneManager** namespace for a more scalable project structure.
+* Added animated UI and background music.
+* Implemented buttons for loading gameplay scenes.
+* Built an immersive Loading Screen.
+* Added gameplay instructions and controls.
+* Created smooth transitions between Main Menu → Level Selection → Loading Screen → Gameplay.
+* Organized project scenes using Unity SceneManager.
 
 ### Planned Gameplay Expansion
 
@@ -160,23 +178,115 @@ Future levels are planned to include:
 
 ### Technical Skills Practiced
 
-* Unity SceneManager
+* Scene Management
 * Multi-Scene Architecture
-* UI Design & Animation
-* Loading Screen Workflow
-* C# Scene Navigation
+* UI Design
+* Scene Navigation
 * Audio Integration
-* Player Experience & Game Flow Design
-
-### Next Objectives
-
-* Design polished UI icons.
-* Implement a distance-based score system.
-* Expand gameplay mechanics and level variety.
-* Continue improving the overall game experience.
 
 ---
 
+## Day 8 – Score System & UI Improvements
+
+### Features Added
+
+* Added an endless run score system.
+* Implemented a UI displaying:
+  * Current Distance Score
+  * Total Red Syringes Collected
+  * Total Blue Syringes Collected
+* Improved gameplay HUD for better player feedback.
+* Expanded collectible tracking.
+
+### Technical Skills Practiced
+
+* Unity UI
+* C# UI Updating
+* Score Management
+* Gameplay Systems
+
+---
+
+## Day 9 – Environment Design, Lighting & Game Polish
+
+### Features Added
+
+#### Horror Hospital Environment
+
+* Built the gameplay environment using online asset packs.
+* Designed a horror-themed abandoned hospital atmosphere.
+* Added themed obstacles including:
+  * Patient beds
+  * Creepy hospital doors
+  * Medical supply desks
+  * Hospital furniture
+* Redesigned gameplay sections with easy, medium, and difficult obstacle layouts for improved pacing and challenge.
+
+#### Lighting Improvements
+
+* Added dynamic spotlight focused on the player.
+* Created ambient lighting throughout the level.
+* Improved overall scene illumination.
+* Added realistic shadows for better atmosphere.
+
+#### UI & Visual Improvements
+
+* Redesigned the Main Menu to better match the hospital theme.
+* Improved readability and consistency.
+* Redesigned the Loading Screen using new props and improved lighting.
+* Enabled shadows for a more immersive presentation.
+* Replaced all game fonts with a consistent retro arcade (Tetris-style) font to create a unified visual identity.
+
+#### Save & Load System
+
+* Implemented Save/Load functionality.
+* Saved player progress between game sessions.
+* Displayed previous high scores and collectible totals directly on the Main Menu.
+
+### Technical Skills Practiced
+
+* Environment Design
+* Level Design
+* Lighting Systems
+* Unity Rendering
+* Save & Load (PlayerPrefs)
+* UI/UX Design
+* Asset Integration
+* Game Polish
+
+---
+
+## 🚀 Next Development Goals
+
+The following features are currently planned:
+
+### End Game Results Screen
+
+* Display current run score.
+* Display total collectibles earned.
+* Show High Score.
+* Notify the player when a new High Score has been achieved.
+
+### Player Animation Improvements
+
+* Add left movement animation.
+* Add right movement animation.
+* Smooth animation blending.
+* Improve character responsiveness.
+
+### Dynamic Audio System
+
+* Replace current background music with a soundtrack that better matches the horror hospital atmosphere.
+* Make background music react dynamically to gameplay speed for increased immersion.
+
+### Mobile Release
+
+* Build and publish the game for Android.
+* Implement mobile touch controls.
+* Test gameplay and optimize the user interface for mobile devices.
+* Optimize performance across different Android devices.
+
+---
 
 ## 🔄 Planned Features
 
