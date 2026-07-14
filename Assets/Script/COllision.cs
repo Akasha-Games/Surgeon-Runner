@@ -15,6 +15,7 @@ public class COllision : MonoBehaviour
     [SerializeField] GameObject fadeoutp;
     void OnTriggerEnter(Collider other)
     {
+        SAVELOAD.saveData = true;
        StartCoroutine(Collisionend());
     }
 

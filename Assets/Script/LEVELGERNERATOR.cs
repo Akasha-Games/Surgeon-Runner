@@ -25,7 +25,7 @@ public class LEVELGENERATOR : MonoBehaviour
         Instantiate(level[levelnum], new Vector3(0, 0, zPos), Quaternion.identity);
         zPos += 50;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.65f);
         creatinglevel = false;
        
       

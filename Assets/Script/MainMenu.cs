@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
-using Unity.VisualScripting;
+
 
 public class MainMenu : MonoBehaviour
 {
@@ -15,8 +15,23 @@ public class MainMenu : MonoBehaviour
     public static bool hasclicked;
     [SerializeField] GameObject StaticCam;
     [SerializeField] GameObject Fadein;
-  void Start()
+
+    [SerializeField] int loadedRedsyringe;
+
+    [SerializeField] int loadedBluesyringe;
+    [SerializeField] int loadeddistance;
+
+    [SerializeField] GameObject reddisplay;
+    [SerializeField] GameObject bluedisplay;
+    [SerializeField] GameObject distancedisplay;
+
+
+
+
+    void Start()
     {
+      
+
         StartCoroutine(FadeInoff());
         if (hasclicked == true)
         {
@@ -68,6 +83,15 @@ public class MainMenu : MonoBehaviour
 
     IEnumerator FadeInoff()
     {
+        yield return new WaitForSeconds(0.05f);
+        loadedRedsyringe = PlayerPrefs.GetInt("REDSYsave");
+        loadedBluesyringe = PlayerPrefs.GetInt("BLUESYsave");
+        loadeddistance = PlayerPrefs.GetInt("DISsave");
+
+        reddisplay.GetComponent<TMPro.TMP_Text>().text = "" + loadedRedsyringe;
+        bluedisplay.GetComponent<TMPro.TMP_Text>().text = "" + loadedBluesyringe;
+        distancedisplay.GetComponent<TMPro.TMP_Text>().text = "" + loadeddistance;
+
         yield return new WaitForSeconds(1);
         Fadein.SetActive(false);
 
