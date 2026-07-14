@@ -290,15 +290,17 @@ The following features are currently planned:
 
 ## 🔄 Planned Features
 
-* High Score Tracking
-* Level Designing 
-* Increasing Difficulty
+* End Game Results Screen
+* High Score Celebration
+* Left & Right Turn Animations
+* Dynamic Background Music
+* Mobile Controls
+* Android Release
 * Mobile Optimization
-* Save and Progress
-* Textures
-* Publishing on Andriod
-
----
+* Additional Levels
+* New Collectibles
+* More Horror Environment Assets
+* Increasing Difficulty System
 
 ## 🎯 Learning Objectives
 
