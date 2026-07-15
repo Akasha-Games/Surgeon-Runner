@@ -255,36 +255,36 @@ Future levels are planned to include:
 * Game Polish
 
 ---
-🚀 Day 10 of Building My Unity Game – Surgeon Runner
+## 📅 Day 10 – Android Build & Mobile Optimization
 
-Today was all about bringing Surgeon Runner one step closer to becoming a mobile game.
+### 📱 Android Development
+- Successfully exported the first Android APK of Surgeon Runner.
+- Configured the project for Android deployment.
+- Installed and tested the game on a physical Android device.
 
-📱 Android Support
-Exported my first Android build.
-Successfully installed and tested the game on a real Android device.
-Added on-screen left and right touch controls while keeping the existing keyboard controls, allowing the same movement system to work on both PC and mobile.
-🎮 Mobile Testing
-Tested gameplay on an actual phone to evaluate controls, UI, and overall experience.
-Identified issues with mobile graphics quality and performance, which provided valuable insights into optimizing games for different hardware.
-⚡ Performance Optimization
+### 🎮 Mobile Controls
+- Implemented on-screen touch controls for Android.
+- Added dedicated Left and Right movement buttons.
+- Integrated touch controls with the existing keyboard input system, allowing the same player movement script to support both PC and Android platforms.
 
-Began optimizing the project for Android by exploring:
+### ⚡ Mobile Performance & Graphics
+- Began optimizing the game for Android devices.
+- Investigated graphics quality differences between PC and mobile.
+- Adjusted Universal Render Pipeline (URP) settings for improved mobile rendering.
+- Tested Render Scale, HDR, shadow settings, and additional lighting configurations.
+- Started identifying performance bottlenecks affecting frame rate and visual quality.
 
-Universal Render Pipeline (URP) settings.
-Render Scale configuration.
-HDR and shadow settings.
-Additional light rendering options.
-Mobile-specific graphics quality settings.
-📊 Profiling & Debugging
+### 📊 Profiling & Debugging
+- Learned how to deploy Development Builds.
+- Began using Unity Profiler for Android performance analysis.
+- Explored CPU, GPU, rendering, and memory profiling to prepare for future optimization.
 
-Started learning Unity's Profiler to better understand CPU, GPU, rendering, and memory usage. This will help identify bottlenecks and improve performance based on real profiling data instead of guesswork.
+### 🔧 Version Control
+- Resolved Git synchronization issues with the remote repository.
+- Updated the project repository and maintained version control using Git and GitHub.
 
-🔧 Development Workflow
-Continued improving the project's GitHub repository.
-Resolved Git synchronization issues and kept the repository up to date.
-Gained more experience with Unity's Android build pipeline and deployment process.
-
-Every challenge teaches me something new. Seeing my own game running on a phone for the first time was a huge milestone, and now the focus shifts toward making the mobile experience smoother and more polished.
+### ✅ Progress Summary
+Today's development focused on transitioning Surgeon Runner from a PC prototype to a mobile-compatible game. The project now supports Android touch controls, runs on real Android devices, and has entered the optimization phase to improve graphics quality and gameplay performance on mobile hardware.
 
 ## 🚀 Next Development Goals
 
