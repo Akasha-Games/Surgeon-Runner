@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.InputSystem;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,42 +8,51 @@ public class PlayerMovement : MonoBehaviour
     public float horizontalSpeed = 3;
     public float rightlimit = 5.5f;
     public float leftlimit = -5.5f;
+
+    public bool moveLeft;
+    public bool moveRight;
+
     [SerializeField] bool isRunning = false;
+
     void Update()
     {
-        if (isRunning == false)
+        if (!isRunning)
         {
             isRunning = true;
             StartCoroutine(Adddistance());
         }
-        transform.Translate(Vector3.forward * Time.deltaTime * playerSpeed, Space.World);
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            if (this.gameObject.transform.position.x > leftlimit)
-            {
-                transform.Translate(Vector3.left * Time.deltaTime * horizontalSpeed);
-            }
-        }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
 
+        transform.Translate(Vector3.forward * playerSpeed * Time.deltaTime, Space.World);
+
+  
+        if ((Keyboard.current != null &&
+            (Keyboard.current.aKey.isPressed ||
+             Keyboard.current.leftArrowKey.isPressed))
+            || moveLeft)
         {
-            if (this.gameObject.transform.position.x < rightlimit)
+            if (transform.position.x > leftlimit)
             {
-                transform.Translate(Vector3.left * Time.deltaTime * horizontalSpeed * -1);
+                transform.Translate(Vector3.left * horizontalSpeed * Time.deltaTime);
             }
         }
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.LeftArrow))
+
+        
+        if ((Keyboard.current != null &&
+            (Keyboard.current.dKey.isPressed ||
+             Keyboard.current.rightArrowKey.isPressed))
+            || moveRight)
         {
-            transform.Translate(Vector3.back * Time.deltaTime * playerSpeed );
+            if (transform.position.x < rightlimit)
+            {
+                transform.Translate(Vector3.right * horizontalSpeed * Time.deltaTime);
+            }
         }
     }
 
     IEnumerator Adddistance()
     {
         yield return new WaitForSeconds(0.35f);
-        SCOREINFO.distanceRun += 1;
+        SCOREINFO.distanceRun++;
         isRunning = false;
     }
-
 }
-
