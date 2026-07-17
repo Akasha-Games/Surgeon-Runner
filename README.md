@@ -331,6 +331,7 @@ The following features are currently planned:
 * New Collectibles
 * More Horror Environment Assets
 * Increasing Difficulty System
+* credits scene 
 
 ## 🎯 Learning Objectives
 
