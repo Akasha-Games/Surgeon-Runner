@@ -322,14 +322,9 @@ The following features are currently planned:
 
 * End Game Results Screen
 * High Score Celebration
-* Left & Right Turn Animations
 * Dynamic Background Music
-* Mobile Controls
-* Android Release
 * Mobile Optimization
 * Additional Levels
-* New Collectibles
-* More Horror Environment Assets
 * Increasing Difficulty System
 * credits scene 
 
