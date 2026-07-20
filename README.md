@@ -338,6 +338,9 @@ This project is part of my long-term goal of becoming a professional game develo
 * Unity Development
 * Technical Problem Solving
 * Production Workflows
+* Game optimization 
+
+  
 
 ---
 
