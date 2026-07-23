@@ -339,7 +339,8 @@ This project is part of my long-term goal of becoming a professional game develo
 * Technical Problem Solving
 * Production Workflows
 * Game optimization
-* Game UI/UX design 
+* Game UI/UX design
+* Game Music on/off
 
   
 
