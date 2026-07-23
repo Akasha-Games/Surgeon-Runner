@@ -63,6 +63,7 @@ The project serves as a practical learning platform for implementing core game d
 * Event-Driven Logic
 * Script Communication
 * Debugging and Troubleshooting
+* Creating Gameobjects 
 
 ### Software Engineering
 
