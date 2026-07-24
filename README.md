@@ -342,7 +342,8 @@ This project is part of my long-term goal of becoming a professional game develo
 * Production Workflows
 * Game optimization
 * Game UI/UX design
-* Game Music on/off
+* Audio Mixer
+  
 
   
 
