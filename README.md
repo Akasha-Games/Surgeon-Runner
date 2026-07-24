@@ -254,6 +254,7 @@ Future levels are planned to include:
 * UI/UX Design
 * Asset Integration
 * Game Polish
+* 
 
 ---
 ## 📅 Day 10 – Android Build & Mobile Optimization
@@ -325,9 +326,9 @@ The following features are currently planned:
 * High Score Celebration
 * Dynamic Background Music
 * Mobile Optimization
-* Additional Levels
 * Increasing Difficulty System
-* credits scene 
+* credits scene
+* Animations for UI
 
 ## 🎯 Learning Objectives
 
