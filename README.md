@@ -327,6 +327,7 @@ The following features are currently planned:
 * Dynamic Background Music
 * Mobile Optimization
 * Increasing Difficulty System
+* Game Score tracking 
 * credits scene
 * Animations for UI
 
