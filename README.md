@@ -330,6 +330,7 @@ The following features are currently planned:
 * Game Score tracking 
 * credits scene
 * Animations for UI
+* Game Icon
 
 ## 🎯 Learning Objectives
 
@@ -343,7 +344,7 @@ This project is part of my long-term goal of becoming a professional game develo
 * Production Workflows
 * Game optimization
 * Game UI/UX design
-* Audio Mixer
+
   
 
   
